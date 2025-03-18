@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.mavenproject21;
 
-/**
- *
- * @author ABC
- */
 public class Mavenproject21 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        CountedItem c = new CountedItem("pens", 4.5, 10);
+        WeightedItem w = new WeightedItem("Banana", 3.00, 1.37);
+        System.out.println(c.toString());
+        System.out.println(w.toString());
     }
 }
